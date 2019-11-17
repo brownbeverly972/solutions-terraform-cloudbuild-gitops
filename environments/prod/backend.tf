@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "iconic-aloe-259214-tfstate"
     prefix = "env/prod"
   }
 }
